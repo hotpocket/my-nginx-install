@@ -13,3 +13,5 @@ bundle
 librarian-chef install
 # get back my cookbook that librarian-chef just blew away
 git checkout cookbooks
+
+echo "Don't forget to run 'source /usr/local/rvm/scripts/rvm' so ruby becomes available"
