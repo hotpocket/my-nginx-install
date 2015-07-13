@@ -1,5 +1,5 @@
 #!/bin/sh
 
-bundle
-librarian-chef install
+#bundle
+#librarian-chef install
 chef-solo -c solo.rb -j solo.json

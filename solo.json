@@ -1,4 +1,3 @@
 {
-    "run_list": [ "recipe[apt]", "recipe[my-nginx-install]" ],
-    "cookbook_path": [ "~/chef/cookbooks" ]
+    "run_list": [ "recipe[apt]", "recipe[my-nginx-install]" ]
 }
