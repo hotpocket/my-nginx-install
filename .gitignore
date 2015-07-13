@@ -1,4 +1,3 @@
-/cookbooks
 .vagrant
 Berksfile.lock
 Gemfile.lock
@@ -18,3 +17,4 @@ bin
 .ruby-version
 .idea
 
+/tmp/librarian
