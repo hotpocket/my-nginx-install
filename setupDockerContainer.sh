@@ -9,8 +9,6 @@ source /usr/local/rvm/scripts/rvm
 echo "source /usr/local/rvm/scripts/rvm" >> ~/.bashrc
 rvm reload
 
-git clone https://github.com/hotpocket/my-nginx-install.git
-cd my-nginx-install
 bundle
 librarian-chef install
 # get back my cookbook that librarian-chef just blew away
