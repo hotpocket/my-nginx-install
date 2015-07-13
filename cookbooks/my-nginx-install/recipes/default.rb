@@ -1,12 +1,12 @@
 include_recipe 'nginx'
 
 
-
 directory '/var/www/nginx-default' do
   owner 'root'
   group 'root'
   mode '0755'
   action :create
+  recursive true
 end
 
 git "/var/www/nginx-default" do
