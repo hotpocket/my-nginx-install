@@ -1,2 +1,2 @@
-file_cache_path "/home/brandon/git/chef-solo"
-cookbook_path "/home/brandon/git/chef-solo/cookbooks"
+file_cache_path Dir.pwd
+cookbook_path "#{Dir.pwd}/cookbooks"
