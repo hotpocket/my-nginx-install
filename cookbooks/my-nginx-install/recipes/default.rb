@@ -1,6 +1,14 @@
 include_recipe 'nginx'
 
 
+
+directory '/var/www/nginx-default' do
+  owner 'root'
+  group 'root'
+  mode '0755'
+  action :create
+end
+
 git "/var/www/nginx-default" do
   repository "https://github.com/puppetlabs/exercise-webpage"
   reference "master"
